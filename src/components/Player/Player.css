@@ -1,0 +1,29 @@
+.Player {
+	background-color: #333333;
+	padding: 10px 20px;
+	border-bottom: 2px solid #444444;
+	position: relative;
+}
+
+.Player:first-of-type {
+	border-top: 2px solid #444444;
+}
+
+.Player__buttons {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	margin-top: 10px;
+}
+
+.Player__score {
+	margin: 0 30px;
+	width: 30px;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.Player__name {
+	margin-left: 20px;
+}
